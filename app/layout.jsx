@@ -4,11 +4,13 @@ export const metadata = {
   keywords: "rental, property, real estate",
   description: "Find the perfect rental property",
 };
+import Navbar from "@/components/Navbar";
 
 const MainLayout = ({ children }) => {
   return (
     <html>
       <body>
+        <Navbar />
         <main>{children}</main>
       </body>
     </html>
